@@ -1,6 +1,6 @@
 {
-  "name": "swift-playground-builder",
-  "version": "0.6.1",
+  "name": "playground",
+  "version": "0.7.0",
   "description": "Create Xcode Playgrounds for the Swift programming language with rich documentation generated from Markdown",
   "main": "index.js",
   "bin": {
@@ -13,9 +13,9 @@
   "author": "Jason Sandmeyer <jasandmeyer@icloud.com> (http://jasonsandmeyer.com)",
   "repository": {
     "type": "git",
-    "url": "http://github.com/jas/swift-playground-builder.git"
+    "url": "http://github.com/jas/playground.git"
   },
-  "bugs": "http://github.com/jas/swift-playground-builder/issues",
+  "bugs": "http://github.com/jas/playground/issues",
   "license": "MIT",
   "keywords": [
     "swift",

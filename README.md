@@ -1,4 +1,4 @@
-# Swift Playground Builder [![Build Status](https://travis-ci.org/jas/swift-playground-builder.svg?branch=master)](https://travis-ci.org/jas/swift-playground-builder)
+# Playground [![Build Status](https://travis-ci.org/jas/playground.svg?branch=master)](https://travis-ci.org/jas/playground)
 
 > Create Xcode Playgrounds for the Swift programming language with rich documentation generated from Markdown
 
@@ -37,7 +37,7 @@ Swift code is extracted from the Markdown with the same syntax used to specify l
 2. In your Terminal, run the following command to install the Playground Builder:
 
    ```sh
-   $ npm install -g swift-playground-builder
+   $ npm install -g playground
    ```
 
 3. That's it! You should now be able to use the `playground` command.
@@ -67,7 +67,7 @@ Options:
 
    -s, --stylesheet    Path to custom stylesheet
 
-   -v, --version       Print swift-playground-builder version and exit
+   -v, --version       Print "playground" version and exit
 ```
 
 ## Node.js Usage
@@ -75,7 +75,7 @@ Options:
 You can also import the Playground Builder as a Node.js module.
 
 ```js
-var playground = require('swift-playground-builder');
+var playground = require('playground');
 
 playground.createFromFile('file.md', options);
 playground.createFromFiles(['file.md', 'directory/of/files/'], options);
@@ -116,7 +116,7 @@ playground.createFromString('String containing markdown.', options);
 ### Example
 
 ```js
-var playground = require('swift-playground-builder');
+var playground = require('playground');
 
 // Outputs `Introduction.playground` to current working directory
 playground.createFromFile('Introduction.md');

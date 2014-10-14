@@ -15,7 +15,7 @@ temp.track();
 
 var FIXTURES_DIR = path.join(__dirname, 'fixtures');
 var EXPECTED_DIR = path.join(__dirname, 'expected');
-var OUTPUT_DIR = temp.mkdirSync('swift-playground-builder');
+var OUTPUT_DIR = temp.mkdirSync('playground');
 
 function assertDirectoryContents(actual, expected) {
   expected = path.join(EXPECTED_DIR, expected);
